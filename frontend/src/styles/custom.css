@@ -1,0 +1,214 @@
+/* Light mode (default) */
+body {
+    background-color: #ffffff;
+    color: #000000;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .navbar-light {
+    background-color: #f8f9fa; /* light navbar */
+  }
+  
+  /* Dark mode */
+  body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+  
+  .navbar-dark {
+    background-color: #1f1f1f; /* dark navbar */
+  }
+  
+  /* Grey background section (light mode) */
+  section.bg-light {
+    background-color: #f8f9fa;
+    color: #000000;
+  }
+  
+  section.bg-dark {
+    background-color: #000000;
+    color: #f8f9fa;
+  }
+  
+
+  /* Grey background section (dark mode) */
+  body.dark-mode section.bg-light {
+    background-color: #2c2c2c;
+    color: #e0e0e0;
+  }
+  
+  /* Ensure text links contrast in dark mode */
+  body.dark-mode a {
+    color: #ffffff;
+  }
+  
+  body.dark-mode .btn-outline-light {
+    color: #ffffff;
+    border-color: #ffffff;
+  }
+  
+  body.dark-mode .btn-outline-light:hover {
+    background-color: #ffffff;
+    color: #121212;
+  }
+  
+  /* Light mode (default) */
+.bg-light {
+    background-color: #f8f9fa !important;
+    color: #000000;
+  }
+  
+  /* Dark mode */
+  body.dark-mode .bg-light {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0;
+  }
+  
+  .bg-dark {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0;
+  }
+  
+  /* Ensure no gap between the last section and footer */
+section:last-of-type {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  
+  /* Ensure the dark mode is applied correctly */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0; /* General text color for dark mode */
+  }
+  
+  /* Footer background and text in dark mode */
+  body.dark-mode footer {
+    background-color: #000000 !important;
+    color: #e0e0e0 !important;
+  }
+  
+  /* Forcing text color inside the footer */
+  footer {
+    background-color: #ffffff;
+    color: #000000;
+    margin-top: auto; /* Push footer to the bottom */
+    padding: 0; /* Remove default padding */
+  }
+  
+  body.dark-mode footer {
+    color: #e0e0e0 !important; /* Dark mode text color */
+  }
+  
+  /* Ensure text classes are overridden if Bootstrap is being too strict */
+  .text-light {
+    color: #e0e0e0;
+  }
+  
+  .text-dark {
+    color: #000000;
+  }
+
+  /* Ensure main content takes up available space */
+  main {
+    flex: 1 0 auto;
+  }
+
+  .hover-lift {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .hover-lift:hover {
+    transform: translateY(-5px);
+  }
+
+  /* Light mode (default) */
+.bg-light {
+  background-color: #f8f9fa;
+  color: #000000;
+}
+
+/* Dark mode */
+body.dark-mode .bg-light {
+  background-color: #2c2c2c;
+  color: #e0e0e0;
+}
+
+body.dark-mode .bg-dark {
+  background-color: #1f1f1f;
+  color: #e0e0e0;
+}
+
+/* Ensure text links contrast in dark mode */
+body.dark-mode a {
+  color: #ffffff;
+}
+
+body.dark-mode .btn-outline-dark {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+body.dark-mode .btn-outline-dark:hover {
+  background-color: #ffffff;
+  color: #121212;
+}
+
+/* Light mode (default) */
+.btn-outline-primary {
+  color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+/* Dark mode */
+body.dark-mode .btn-outline-secondary {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+body.dark-mode .btn-outline-secondary:hover {
+  color: #121212;
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+/* Auth Page Styles */
+.card.bg-light {
+  background-color: #f8f9fa;
+  color: #000000;
+}
+
+body.dark-mode .card.bg-light {
+  background-color: #2c2c2c;
+  color: #e0e0e0;
+}
+
+body.dark-mode .form-control.bg-light {
+  background-color: #1f1f1f;
+  color: #e0e0e0;
+  border-color: #444;
+}
+
+body.dark-mode .form-control.bg-light:focus {
+  background-color: #2c2c2c;
+  color: #ffffff;
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+body.dark-mode .btn-link {
+  color: #ffffff;
+}
+
+body.dark-mode .btn-link:hover {
+  color: #a0a0a0;
+}
