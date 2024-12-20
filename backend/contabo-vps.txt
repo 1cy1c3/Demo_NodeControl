@@ -1,0 +1,14 @@
+| VPS Level | CPU Cores | RAM    | NVMe Option             | SSD Option              | Storage Option           | Snapshots | Traffic    | Price/Month |
+|-----------|-----------|--------|-------------------------|-------------------------|--------------------------|-----------|------------|-------------|
+| VPS 1     | 4 vCPU    | 6 GB   | 100 GB NVMe (V46)       | 400 GB SSD (V45)        | 800 GB SSD (V47)         | 1         | 32 TB      | €5.36       |
+| VPS 2     | 6 vCPU    | 16 GB  | 200 GB NVMe (V49)       | 400 GB SSD (V48)        | 800 GB SSD (V50)         | 2         | 32 TB      | €11.31      |
+| VPS 3     | 8 vCPU    | 24 GB  | 300 GB NVMe (V52)       | 1.2 TB SSD (V51)        | 2.4 TB SSD (V53)         | 2         | 32 TB      | €16.66      |
+| VPS 4     | 12 vCPU   | 48 GB  | 400 GB NVMe (V55)       | 1.6 TB SSD (V54)        | 3.2 TB SSD (V56)         | 3         | 32 TB      | €30.94      |
+| VPS 5     | 16 vCPU   | 64 GB  | 500 GB NVMe (V58)       | 2 TB SSD (V57)          | 4 TB SSD (V59)           | 3         | 32 TB      | €39.87      |
+| VPS 6     | 24 vCPU   | 120 GB | 600 GB NVMe (V61)       | 2.4 TB SSD (V60)        | 4.8 TB SSD (V62)         | 3         | 32 TB      | €73.19      |
+
+
+IMAGEID                               NAME        	SIZEMB  UPLOADEDSIZEMB  OSTYPE   VERSION
+d64d5c6c-9dda-4e38-8174-0ee282474d8a  ubuntu-24.04	558     558             Linux    24.04
+afecbb85-e2fc-46f0-9684-b46b1faf00bb  ubuntu-22.04	621     621             Linux    22.04
+db1409d2-ed92-4f2f-978e-7b2fa4a1ec90  ubuntu-20.04	597     597             Linux    20.04 
